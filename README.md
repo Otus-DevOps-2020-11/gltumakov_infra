@@ -1,5 +1,5 @@
 ___
-HMW 5
+# HMW 5
 ___
 bastion_IP = 84.201.174.18
 someinternalhost_IP = 10.130.0.31
@@ -39,7 +39,7 @@ ___
 `$ ssh -i ~/.ssh/appuser appuser@<someinternalhost_IP>`
 
 ___
-HMW 6
+# HMW 6
 ___
 testapp_IP = 178.154.231.45
 testapp_port = 9292
