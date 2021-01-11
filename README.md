@@ -70,3 +70,11 @@ yc compute instance create \
   --metadata serial-port-enable=1 \
   --metadata-from-file user-data=./metadata.yaml
 ```
+___
+# HMW 7
+___
+## To create "baked" image of VM, run following command in *packer* dir:
+`$ packer build --var-file=../variables.json immutable.json`
+
+## To create an instance from created image, run following command in the project's root dir:
+`$ ./config-scripts/config-reddit-vm.sh`
