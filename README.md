@@ -77,4 +77,23 @@ ___
 `$ packer build --var-file=../variables.json immutable.json`
 
 ## To create an instance from created image, run following command in the project's root dir:
-`$ ./config-scripts/config-reddit-vm.sh`
+`$ ./config-scripts/create-reddit-vm.sh`
+___
+# HMW 8
+## To init terraform.tfvars file, run following command in the project root dir:
+
+`$ cp terraform/terraform.tfvars.example terraform/terraform.tfvars`
+
+## Fill in newly created file with relevant values
+
+What was done:
+
+– created terraform/ folder with terraform configuration files inside, and terraform/files/ folder with resources for "provisioner" block in terraform/main.tf file
+
+– defined input variables
+
+– applied infrastructure changes by using `terraform apply --auto-approve` command
+
+– defined output variables
+
+– tested connectivity to created remote host machine
