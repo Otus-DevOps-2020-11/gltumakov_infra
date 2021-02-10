@@ -97,3 +97,11 @@ What was done:
 – defined output variables
 
 – tested connectivity to created remote host machine
+___
+# HMW 9 terraform-2
+
+What was done:
+
+– created two VM templates: app.json and db.json;<br />
+– created terraform modules: app and db;<br />
+– created different stages with re-usable modules: stage and prod;<br />
