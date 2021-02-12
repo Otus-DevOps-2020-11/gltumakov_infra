@@ -105,3 +105,14 @@ What was done:
 – created two VM templates: app.json and db.json;<br />
 – created terraform modules: app and db;<br />
 – created different stages with re-usable modules: stage and prod;<br />
+___
+# HMW 10 ansible-10
+
+What was done:
+
+– created ansible directory;<br />
+– created requirements.txt file;<br />
+– created inventory and inventory.yml files;<br />
+– created ansible.cfg file to reduce boilerplate code in inventory file;<br />
+– created clone.yml playbook;<br />
+– after the second execution of `ansible-playbook clone.yml` command, `changed` value in the output we've got from executing `ansible-playbook clone.yml` changed from 0 to 1;<br />
