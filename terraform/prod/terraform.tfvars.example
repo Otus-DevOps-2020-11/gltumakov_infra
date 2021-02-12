@@ -7,4 +7,4 @@ image_id=
 subnet_id=
 service_account_key_file=
 app_disk_image=
-db_disk_image==
+db_disk_image=
