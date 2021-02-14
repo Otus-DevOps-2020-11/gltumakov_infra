@@ -1,0 +1,6 @@
+{
+  "service_account_key_file": "KEY_FILE",
+  "folder_id": "FOLDER_ID",
+  "source_image_family": "ubuntu-1604-lts",
+  "image_family": "reddit-full"
+}
