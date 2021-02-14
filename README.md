@@ -106,7 +106,7 @@ What was done:
 – created terraform modules: app and db;<br />
 – created different stages with re-usable modules: stage and prod;<br />
 ___
-# HMW 10 ansible-10
+# HMW 10 ansible-1
 
 What was done:
 
@@ -116,3 +116,13 @@ What was done:
 – created ansible.cfg file to reduce boilerplate code in inventory file;<br />
 – created clone.yml playbook;<br />
 – after the second execution of `ansible-playbook clone.yml` command, `changed` value in the output we've got from executing `ansible-playbook clone.yml` changed from 0 to 1;<br />
+___
+# HMW 11 ansible-2
+
+What was done:
+
+– updated `.gitignore` file;<br />
+– created "all-in-one" ansible playbook;<br />
+– distinguished different scenarios (plays) in single playbook;<br />
+– created separate playbooks for different scenarios (e.g. app, db, deploy);<br />
+– updated packer provisioners for app & db VM images to use ansible playbooks;<br />
